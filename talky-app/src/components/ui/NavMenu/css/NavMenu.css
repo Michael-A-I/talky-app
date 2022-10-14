@@ -1,0 +1,42 @@
+.navmenu-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.navmenu-list-item-container {
+  width: 150px;
+  color: rgb(241, 241, 253, 1);
+}
+
+.navmenu-list-item-container:hover {
+  background: rgb(63, 67, 75, 1);
+  color: rgb(241, 241, 253, 1);
+  /* opacity: 0.1; */
+}
+.navmenu-list-item-container-button {
+  background: #36393f;
+}
+
+.navmenu-list-item-container--button:hover {
+  background: #36393f;
+  color: #d6d7d8;
+}
+.navmenu-list-item-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+}
+
+.navmenu-list-item-container--button {
+  color: #d6d7d8;
+}
+
+.navmenu-list:hover {
+  color: #fff;
+  opacity: 1;
+}

@@ -1,0 +1,93 @@
+.more-info-img {
+  width: 550px;
+  height: 600px;
+}
+
+.more-info-title {
+  height: 50%;
+  margin: 10px;
+  font-family: var(--font-headline);
+  font-size: clamp(2rem, 4vw, 5rem);
+}
+
+.more-info-description {
+  height: 50%;
+  margin: 10px;
+  font-size: clamp(1rem, 4vw, 1.75rem);
+  font-family: var(--font-glitch);
+}
+
+/* Responsive */
+
+/* Mobile */
+@media (max-width: 480px) {
+  .more-info-title {
+    height: 50%;
+    margin: 10px;
+    font-family: var(--font-headline);
+    font-size: clamp(2rem, 4vw, 5rem);
+  }
+
+  .more-info-description {
+    height: 50%;
+    margin: 10px;
+    font-size: clamp(1rem, 4vw, 1rem);
+    font-family: var(--font-glitch);
+  }
+
+  .more-info-img {
+    width: 413px;
+    height: 432px;
+  }
+  body {
+    background-color: red;
+  }
+}
+/* Mobile */
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .more-info-title {
+    height: 50%;
+    margin: 10px;
+    font-family: var(--font-headline);
+    font-size: clamp(2rem, 4vw, 5rem);
+  }
+
+  .more-info-description {
+    height: 50%;
+    margin: 10px;
+    font-size: clamp(1rem, 4vw, 1rem);
+    font-family: var(--font-glitch);
+  }
+
+  .more-info-img {
+    width: 413px;
+    height: 432px;
+  }
+
+  body {
+    background-color: yellow;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  body {
+    background-color: white;
+  }
+}

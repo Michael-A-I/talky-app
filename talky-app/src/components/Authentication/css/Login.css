@@ -1,0 +1,28 @@
+.center-page {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card-center-title {
+  color: #fff;
+  text-align: center;
+}
+
+.card-sub-title {
+  color: #adaeb2;
+  text-align: center;
+}
+
+.form-group-styles {
+  color: #adaeb2;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+.toast-display-center {
+  display: flex;
+  justify-content: center;
+}

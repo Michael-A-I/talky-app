@@ -1,0 +1,26 @@
+.page-logo-container {
+  display: flex;
+  /* padding: 0px 0px 0px 100px; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-logo-fa-person {
+  border: 1px solid white;
+  height: 50px;
+  width: 50px;
+  position: inherit;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-logo-image {
+  color: white;
+}
+
+.page-logo-text {
+  color: white;
+  margin: 0px auto;
+}

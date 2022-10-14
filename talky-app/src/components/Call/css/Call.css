@@ -1,0 +1,23 @@
+.call-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-title {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.bttn--color-white {
+  color: #fff;
+}
+.bttn--color-white:hover {
+  color: .bttn--color-white {
+    color: #fff;
+  }
+}

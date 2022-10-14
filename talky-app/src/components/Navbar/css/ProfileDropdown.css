@@ -1,0 +1,79 @@
+#bootstrap-overrides .nav-menu {
+  display: flex;
+  margin-right: 15%;
+  list-style-type: none;
+  margin: auto;
+}
+
+.nav-profile {
+  /* list-style-type: none; */
+}
+
+.nav-search-buttons-item--small:hover {
+  border: 3px solid white;
+  /* border-right: 3px solid white; */
+
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+#bootstrap-overrides .nav-search-buttons-item--primary {
+  background-color: #404eed;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+#bootstrap-overrides .hide-big {
+  font-size: 14px;
+  display: none;
+}
+
+.dropdown-menu {
+  border: 1px solid red;
+  transform: translate(0px, 40px);
+  padding: 60px;
+}
+
+.dropdown-nav-title {
+  padding-bottom: 11px;
+}
+
+.fa-person {
+  display: inline;
+  width: 100%;
+  position: absolute;
+  left: 10px;
+  top: 57px;
+  width: 90%;
+  border-bottom: 1px solid black;
+}
+
+.fa-fire {
+  display: inline;
+  width: 100%;
+  position: absolute;
+  left: 10px;
+  top: 234px;
+  width: 90%;
+  border-bottom: 1px solid black;
+}
+
+.fa-eye {
+  display: inline;
+
+  position: absolute;
+  left: 10px;
+  top: 119px;
+  width: 90%;
+  border-bottom: 1px solid black;
+}
+@media screen and (max-width: 975px) {
+  #hide-small {
+    display: none;
+  }
+}
