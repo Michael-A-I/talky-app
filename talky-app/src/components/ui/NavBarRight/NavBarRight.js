@@ -7,10 +7,12 @@ function NavBarRight() {
       <div className="navbar-right" style={{ border: "10px solid whtie" }}>
         <div className="navbar-right-container">
           <div className="navbar-right-box">
-            <i class="fa-solid fa-inbox"></i>
+            <i className="fa-solid fa-inbox"></i>
           </div>
           <div className="navbar-right-box">
-            <i class="fa-solid fa-question"></i>
+            <div className="navbar-right-question-container">
+              <i className="fa-solid fa-question"></i>
+            </div>
           </div>
         </div>
       </div>

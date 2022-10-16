@@ -21,7 +21,7 @@ const Sidebar = props => {
   return (
     <>
       {appState.loggedIn ? (
-        <Nav className="col-md-12 d-none d-md-block sidebar" style={{ width: props.width || "300px" }} activeKey="/home" onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
+        <Nav className="col-md-12  d-md-block sidebar" style={{ width: props.width || "300px" }} activeKey="/home" onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
           <Input />
           <SideBarOptions />
           <FriendsList />

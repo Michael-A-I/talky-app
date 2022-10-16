@@ -24,10 +24,8 @@ function NavMenu() {
         </li>
 
         <li className="navmenu-list-item">
-          <div className="navmenu-list-item-container navmenu-list-item-container--button">
-            <p className="navmenu-list-item-text">
-              <Button>Add Friend</Button>
-            </p>
+          <div className="navmenu-list-item-container--button">
+            <button className="navmenu-list-button">Add friend</button>
           </div>
         </li>
       </ul>

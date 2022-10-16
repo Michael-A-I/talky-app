@@ -8,10 +8,11 @@
   z-index: 1;
   opacity: 1;
   transition: opacity 2s;
-  width: 80%;
+  width: 100%;
   padding: 0px 0px 0px 400px;
   margin: 0px;
   margin-bottom: 0px;
+  border-bottom: 5px solid #2f3136;
 }
 #bootstrap-overrides .navbar.authentication {
 }
@@ -116,7 +117,7 @@ dropdown-item {
 
 .navbar-right {
   /* position: absolute; */
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 /* !MEDIUM SCREENS */
 /* TODO: Add styling for medium sized screens */
@@ -165,10 +166,10 @@ dropdown-item {
   }
 
   /* hide serach bar and attached buttons */
-  .nav-search {
-    /* remove elements and spacing do not use visiblity:none */
+  /* .nav-search {
+    remove elements and spacing do not use visiblity:none
     display: none;
-  }
+  } */
 
   .nav-search-buttons-item {
     width: 150px;

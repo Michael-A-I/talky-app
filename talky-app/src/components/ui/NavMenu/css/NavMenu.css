@@ -14,15 +14,16 @@
 .navmenu-list-item-container:hover {
   background: rgb(63, 67, 75, 1);
   color: rgb(241, 241, 253, 1);
-  /* opacity: 0.1; */
+  padding: 10px 25px;
+  border-radius: 20px;
 }
 .navmenu-list-item-container-button {
-  background: #36393f;
+  /* background: #36393f; */
 }
 
 .navmenu-list-item-container--button:hover {
-  background: #36393f;
-  color: #d6d7d8;
+  /* background: #36393f;
+  color: #d6d7d8; */
 }
 .navmenu-list-item-text {
   display: flex;
@@ -33,10 +34,29 @@
 }
 
 .navmenu-list-item-container--button {
+  margin: 0px 25px;
   color: #d6d7d8;
 }
 
 .navmenu-list:hover {
   color: #fff;
   opacity: 1;
+}
+
+.navmenu-list-button {
+  background: #2d7d46;
+  padding: 12px 50px;
+  width: 200px;
+  color: #fff;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.navmenu-list-button:hover {
+  background: #3e9d5d;
+  padding: 12px 50px;
+  width: 200px;
+  color: #fff;
+  border-radius: 10px;
+  border: 0px;
 }

@@ -30,6 +30,13 @@
   width: 100%;
 }
 
+/*! turn off sidebar hiding effect.  */
+@media (min-width: 0px) {
+  .d-md-block {
+    display: block !important;
+  }
+}
+
 /* @media screen and (max-width: 975px) {
   .sidebar {
     position: fixed;

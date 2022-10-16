@@ -4,7 +4,7 @@ body {
   width: 100vw;
 }
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 :root {
