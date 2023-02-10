@@ -11,6 +11,20 @@
   margin-right: 350px;
   background: #2f3136;
 }
+
+
+.sidebar-menu{
+  position: absolute;
+  top: 77%;
+  left: 16%;
+  background-color:#2f3136; 
+  z-index: 1000;
+  border: 1px solid #2b2e33;
+  color:white;
+  text-align: center;
+}
+
+
 #sidebar-wrapper {
   min-height: 100vh !important;
   width: 100vw;

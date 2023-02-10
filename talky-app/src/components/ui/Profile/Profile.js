@@ -1,8 +1,21 @@
-import React from "react"
+import React, { useContext } from "react"
+import DispatchContext from "../../../context/DispatchContext"
+import StateContext from "../../../context/StateContext"
 import Avatar from "../Avatar/Avatar"
 import "./css/Profile.css"
 
 function Profile() {
+  const appState = useContext(StateContext)
+  const appDispatch = useContext(DispatchContext)
+
+  const menuState = appState.menu
+
+  const toggleMenu = () =>{
+    console.log(appState.menu)
+    appDispatch({ type: "menu"})
+
+  }
+  
   return (
     <>
       <div className="profile-avatar-container">
@@ -15,7 +28,7 @@ function Profile() {
             {/* <p>Blue Robot</p> */}
           </div>
         </div>
-        <div className="profile-settings">
+        <div className="profile-settings" onClick={toggleMenu}>
           <i class="fa-solid fa-gear profile-avatar-gear"></i>
         </div>
       </div>

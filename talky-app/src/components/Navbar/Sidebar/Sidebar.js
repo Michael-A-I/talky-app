@@ -14,12 +14,14 @@ import Logo from "../Logo"
 import Profile from "../../ui/Profile/Profile"
 import SideBarOptions from "../../ui/SideBarOptions/SideBarOptions"
 import FriendsList from "../../ui/FriendsList/FriendsList"
+import SidebarMenu from "./SidebarMenu"
 const Sidebar = props => {
   const appDispatch = useContext(DispatchContext)
   const appState = useContext(StateContext)
 
   return (
     <>
+
       {appState.loggedIn ? (
         <Nav className="col-md-12  d-md-block sidebar" style={{ width: props.width || "300px" }} activeKey="/home" onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
           <Input />
@@ -27,9 +29,15 @@ const Sidebar = props => {
           <FriendsList />
           <Profile />
         </Nav>
+
       ) : (
         ""
       )}
+
+  <div className="sidebar-menu">
+    <SidebarMenu/>
+  </div>
+
     </>
   )
 }

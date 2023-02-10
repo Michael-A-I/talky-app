@@ -44,7 +44,9 @@ function App() {
       msg: "",
       title: "",
       context: ""
-    }
+    },
+
+    menu:false,
   }
 
   function ourReducer(draft, action) {
@@ -65,6 +67,11 @@ function App() {
           context: action.context
         }
         return
+
+        case "menu":
+          draft.menu = !draft.menu
+          
+          return
     }
   }
   /* immer avoids directly muttating state. */
